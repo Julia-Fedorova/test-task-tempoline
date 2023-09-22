@@ -1,9 +1,10 @@
-spring.datasource.driver-class-name=org.postgresql.Driver
-spring.datasource.url=jdbc:postgresql://localhost:5432/tempo
-spring.datasource.username=postgres
-spring.datasource.password=postgres
+Задание №2
+Нужно, используя Spring Boot, сделать макет сервиса сбора статистики, который имеет 2 метода:
 
+1. Метод POST, который позволяет добавить информацию о новом событии, с типизацией по классификатору
+2. Метод GET, который выводит список событий, сортированный и сгруппированный по дням с возможностью фильтрации по классификатору. Метод должен иметь паджинацию
 
-spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
-spring.jpa.properties.hibernate.show_sql=true
-
+•	Сервис имеет классификатор (отдельный список возможных типов событий). Классификатор в будущем может дополняться
+•	Сервис нужно сделать используя Spring Boot 
+•	Сервис в дальнейшем планируется  развивать и расширять
+•	Базу данных можно использовать любую реляционную
